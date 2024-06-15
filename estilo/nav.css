@@ -55,25 +55,37 @@ nav{
     height: 100%;
 
     background-color: rgb(33, 33, 33, 0.95);
+
+    font-family: sans-serif;
 }
 
 ul{
     margin-top: 55px;
-    text-align: center;
+    margin-left: 20px;
+}
+
+h2{
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+    font-size: 25px;
+    font-family: inherit;
+    color:white;
 }
 
 li{
     display: block;
-
     font-size: 20px;
-    font-family: sans-serif;
 
-    border-bottom: solid 1.5px white;
+    left: 0;
+
+
+
     padding-top: 7px;
     padding-bottom: 7px;
 }
 
 a{
     text-decoration: none;
-    color:white;
+    color: #8e9696;
 }
