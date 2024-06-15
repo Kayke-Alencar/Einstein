@@ -1,0 +1,60 @@
+button{
+    display: inline;
+    position: absolute;
+
+    background: none;
+    border:none;
+}
+
+#btn-fechado{
+    display: inline;    
+
+    position: absolute;
+
+    font-size: 23px;
+    padding: 4px;
+    color:white;
+}
+
+#btn-aberto{
+    display: none;
+    position: fixed;
+
+    font-size: 23px;
+    padding: 4px;
+    color:#a8acad;
+}
+
+nav{
+    display: none;
+}
+
+.nav-aberto{
+    display: inline;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+
+    background-color: rgb(33, 33, 33, 0.95);
+}
+
+ul{
+    margin-top: 55px;
+    text-align: center;
+}
+
+li{
+    display: block;
+
+    font-size: 25px;
+    font-family: sans-serif;
+
+    border-bottom: solid 1.5px white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
