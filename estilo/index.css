@@ -41,14 +41,20 @@ p{
 }
 
 .video{
-    margin-top: 100px;
+    margin-top: 10px;
     text-align: center;
 }
 
 iframe{
-    width: 90%;
-
+    width: 95%;
     border-radius: 30px;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cachimbo{
+    
 }
 
 #img3{
@@ -57,6 +63,11 @@ iframe{
 
 .louza{
     width: 100%;
+    border-top: solid 2px white;
+}
+
+#degrade{
+    background-image: linear-gradient(73deg, #393939, black);
 }
 
 #texto3{
@@ -64,4 +75,8 @@ iframe{
     margin: auto;
     padding-top: 30px;
     text-align: center;
+}
+
+h1{
+    padding-bottom: 15px;
 }
