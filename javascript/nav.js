@@ -1,27 +1,43 @@
 const nav = document.querySelector("nav");
+const main = document.querySelector("main");
+const body = document.querySelector("body");
+
 
 const btnDoFechado = document.querySelector("#btn-fechado");
 const btnDoAberto = document.querySelector("#btn-aberto");
 
+let butaoAberto = ()=>{
+    btnDoFechado.style.display = "none";
+    btnDoAberto.style.display = "inline";
+};
 
-function abrir(){
-    btnDoFechado.addEventListener('click', ()=>{
-        btnDoFechado.style.display = "none";
-        btnDoAberto.style.display = "inline";
-        
-        nav.style.animationName = "abrindoNav";
-        nav.style.animationDuration = "550ms";
+let butaofechado = ()=>{
+    btnDoAberto.style.display = "none";
+    btnDoFechado.style.display = "inline";
 
+};
 
+let bloquearScrool = ()=>{
+    body.style.overflowY = "hidden";
+}
 
-        nav.classList.toggle("nav-aberto");
+let desbloquearScrool = ()=>{
+    body.style.overflowY = "auto";
+}
+
+let fecharPeloMain = ()=>{
+    main.addEventListener('click', ()=>{
+        desbloquearScrool();
+        butaofechado();
+        nav.classList.remove("nav-aberto");
     });
 };
 
-function fechar(){
+function fecharPeloMenu(){
     btnDoAberto.addEventListener('click', ()=>{
-        btnDoAberto.style.display = "none";
-        btnDoFechado.style.display = "inline";
+        desbloquearScrool();
+        butaofechado();
+
 
         nav.style.animationName = "fechandoNav";
         nav.style.animationDuration = "550ms";
@@ -33,5 +49,18 @@ function fechar(){
     });
 };
 
+function abrir(){
+    btnDoFechado.addEventListener('click', ()=>{
+        butaoAberto();
+
+        nav.style.animationName = "abrindoNav";
+        nav.style.animationDuration = "550ms";
+        nav.classList.toggle("nav-aberto");
+
+        bloquearScrool();
+        fecharPeloMain();
+    });
+};
+
 abrir();
-fechar();
+fecharPeloMenu();
