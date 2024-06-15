@@ -51,12 +51,13 @@ nav{
 .nav-aberto{
     display: inline;
     position: fixed;
+
     width: 50%;
     height: 100%;
 
     background-color: rgb(33, 33, 33, 0.95);
-
     font-family: sans-serif;
+    border-radius: 30px;
 }
 
 ul{
@@ -67,6 +68,9 @@ ul{
 h2{
     margin-top: 15px;
     margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: solid 0.1px white;
+    width: 80%;
 
     font-size: 25px;
     font-family: inherit;
@@ -75,10 +79,7 @@ h2{
 
 li{
     display: block;
-    font-size: 20px;
-
-    left: 0;
-
+    font-size: 23px;
 
 
     padding-top: 7px;
