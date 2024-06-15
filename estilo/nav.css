@@ -25,6 +25,25 @@ button{
     color:#a8acad;
 }
 
+@keyframes abrindoNav{
+    from{
+        left: -50%;
+    }
+    to{
+        left: 0;
+    }
+}
+
+@keyframes fechandoNav{
+    from{
+        left:0;
+    }
+
+    to{
+        left:-50%;
+    }
+}
+
 nav{
     display: none;
 }
@@ -46,7 +65,7 @@ ul{
 li{
     display: block;
 
-    font-size: 25px;
+    font-size: 20px;
     font-family: sans-serif;
 
     border-bottom: solid 1.5px white;
