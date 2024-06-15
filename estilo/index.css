@@ -1,3 +1,67 @@
 .pensando{
     width: 100%;
 }
+
+#texto1{
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+h1{
+    color:white;
+    font-family: math;
+    font-weight: 200;
+}
+
+p{
+    color:rgb(129, 129, 129);
+}
+
+.albert-eistein-foi{
+    padding-top: 10px;
+}
+
+#img2{
+    width: 90%;
+    margin: auto;
+}
+
+.cachimbo{
+    width: 80%;
+    padding-top: 30px;
+
+    border-radius: 20px;
+}
+
+#texto2{
+    width: 90%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.video{
+    margin-top: 100px;
+    text-align: center;
+}
+
+iframe{
+    width: 90%;
+
+    border-radius: 30px;
+}
+
+#img3{
+    padding-top: 50px;
+}
+
+.louza{
+    width: 100%;
+}
+
+#texto3{
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+}
