@@ -1,5 +1,6 @@
 .pensando{
     width: 100%;
+    border-bottom: solid 1px #414141;
 }
 
 #texto1{
@@ -8,11 +9,14 @@
     padding-top: 10px;
 }
 
-h1{
+h2{
     color:white;
     font-family: math;
     font-weight: 200;
+
+    padding-bottom: 15px;
 }
+
 
 p{
     color:rgb(129, 129, 129);
@@ -29,9 +33,10 @@ p{
 
 .cachimbo{
     width: 80%;
-    padding-top: 30px;
+    margin-top: 30px;
 
     border-radius: 20px;
+    opacity: 80%;
 }
 
 #texto2{
@@ -47,15 +52,12 @@ p{
 
 iframe{
     width: 95%;
-    border-radius: 30px;
-
     padding-top: 100px;
     padding-bottom: 100px;
+
+    opacity: 75%;
 }
 
-.cachimbo{
-    
-}
 
 #img3{
     padding-top: 50px;
@@ -64,10 +66,11 @@ iframe{
 .louza{
     width: 100%;
     border-top: solid 2px white;
+    opacity: 80%;
 }
 
 #degrade{
-    background-image: linear-gradient(73deg, #121212, black);
+    background-image: linear-gradient(73deg, #181818, black);
 }
 
 #texto3{
@@ -75,8 +78,4 @@ iframe{
     margin: auto;
     padding-top: 30px;
     text-align: center;
-}
-
-h1{
-    padding-bottom: 15px;
 }
