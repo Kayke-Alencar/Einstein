@@ -67,10 +67,10 @@ iframe{
     padding-top: 50px;
 }
 
-.louza{
+.EinsteinCrianca{
     width: 100%;
     border-top: solid 2px white;
-    opacity: 80%;
+    opacity: 77%;
 }
 
 #degrade{
@@ -81,7 +81,6 @@ iframe{
     width: 90%;
     margin: auto;
     padding-top: 30px;
-    text-align: center;
 }
 
 
@@ -94,6 +93,10 @@ iframe{
         margin: auto;
     }
 
+    .container:nth-child(1){
+        padding-top: 70px;
+    }
+
     #h1{
         display: block;
         text-align: center;
@@ -102,14 +105,13 @@ iframe{
         font-family: sans-serif;
         color: white;
     }
-    
-    .container{
-        display: flex;
-        padding-top: 60px;
+
+    img{
+        box-shadow: -13px 20px 12px -4px rgb(93 79 79 / 30%);
     }
 
     #img1{
-        width: 100%;
+        width: 80%;
         margin-right: 20px;
 
         border-bottom: 0;
@@ -117,6 +119,22 @@ iframe{
 
     #img1 img{
         border-radius: 20px;
+    }
+
+    .txt1{
+        border-radius: 7px;
+        box-shadow: -5px 5px 7px -4px rgb(225 225 225 / 32%);
+        padding: 10px;
+        padding-bottom: 5px;
+        height: fit-content;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    p{
+        font-size:20px;
     }
 
     #resetarMargin{
@@ -137,7 +155,32 @@ iframe{
 
     iframe{
         height: 80vh;
+        padding: 0;
+
+        opacity: 60%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+
+        border: solid 3px rgb(95 92 92);
+        border-radius: 20px;
     }
 
+    #EinsteinCrianca{
+        border-radius: 17px;
+    }
 
+    #degrade{
+        background-image: none;
+    }
+
+    .txt3{
+        width: 100%;
+        text-align: left;
+    }
+
+    .txt3 p{
+        padding-bottom: 20px;
+        
+        font-size: 25px
+    }
 }

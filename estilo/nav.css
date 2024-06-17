@@ -100,25 +100,66 @@ a:hover{
 /*Desktop*/
 
 @media (min-width:1024px){
+    header{
+        border-bottom: solid 2px #373737;
+    } 
+
     button{
         display: none;
     }
     .desktop{
         display: inline;
-        font-family: sans-serif;
     }
 
-    .desktop ul{
+    #navDesktop{
+        font-family: sans-serif;
+    }
+    
+    #login{
+        position: absolute;
+        right: 0px;
+        margin-right: 10px;
         margin-top: 10px;
+        font-size: 27px;
+        color: rgb(108 114 114);
+    }
+
+    #login:hover{
+        color: white;
+    }
+
+    .itens{
+        position: absolute;
+        margin-top: 10px;
+    }
+
+    #facebook{
+        margin-left: 10px;
+        font-size: 27px;
+        color: rgb(108 114 114);
+    }
+
+    #insta{
+        margin-left: 10px;
+        font-size: 27px;
+        color: rgb(108 114 114);
+    }
+
+    ul{
         padding-top: 10px;
-        width: 90%;
+        padding-bottom: 10px;
         margin: auto;
+        width: 90%;
         text-align: center;
     }
 
-    .desktop li{
+    ul li{
         display: inline;
         color: white;
         margin-left: 30px;
-    }  
+    }
+
+    a{
+        font-size: 28px;
+    }
 }
