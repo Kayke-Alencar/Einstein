@@ -91,3 +91,34 @@ a{
     text-decoration: none;
     color: #8e9696;
 }
+
+a:hover{
+    color: white;
+}
+
+
+/*Desktop*/
+
+@media (min-width:1024px){
+    button{
+        display: none;
+    }
+    .desktop{
+        display: inline;
+        font-family: sans-serif;
+    }
+
+    .desktop ul{
+        margin-top: 10px;
+        padding-top: 10px;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .desktop li{
+        display: inline;
+        color: white;
+        margin-left: 30px;
+    }  
+}
