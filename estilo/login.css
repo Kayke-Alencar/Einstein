@@ -1,0 +1,65 @@
+h1{
+    display: inline-block;
+    padding-top: 60px;
+    padding-left: 20px;
+
+    color: rgb(143 143 143);
+    font-family: math;
+    font-weight: 500;
+    font-size: 255%;
+    border-bottom: solid 2px rgb(143 143 143) ;
+    margin-bottom: 30px;
+}
+
+form{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+label{
+    display: block;
+    color: rgb(177 175 175);
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-bottom: 7px;
+}
+
+input{
+    width: 90%;
+    height: 35px;
+    background: none;
+
+    border: solid 1px #777777;
+    padding: 5px;
+
+    margin-bottom: 30px;
+
+    color:rgb(175 175 175);;
+}
+
+input::-webkit-calendar-picker-indicator{
+    background-color: #777777;
+    
+}
+
+.env{
+    margin-top: 50px;
+    margin-left: 4px;
+}
+
+@media(min-width:1024px){
+    h1{
+        display: block;
+        border-bottom: none;
+
+        text-align: center;
+
+        margin-bottom: 5px;
+    }
+
+    form{
+        width: 95%;
+        margin: auto;
+    }
+
+}

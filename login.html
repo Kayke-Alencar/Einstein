@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/eb27738cc6.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/nav.css">
+    <link rel="stylesheet" href="estilo/login.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <h2 class="h2nav">Paginas</h2>
+                <li>
+                    <a href="">
+                        Curiosidades
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        Historia
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        Descobertas
+                    </a>
+                </li>
+
+
+                <h2 class="h2nav">Redes</h2>
+
+                <li>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>  Instagram 
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>   facebook 
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-right-to-bracket"></i>  logi-in
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <button>
+            <i id="btn-fechado" class="fa-solid fa-bars"></i>
+        </button>
+
+        <button>
+            <i id="btn-aberto" class="fa-solid fa-reply"></i>
+        </button>
+
+
+        <nav id="navDesktop"  class="desktop">
+            <i id="login" class="fa-solid fa-right-to-bracket"></i>
+
+            <div class="itens">
+                <a href="">
+                    <i id="facebook" class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="">
+                    <i id="insta" class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            
+            <ul>
+                <li>
+                    <a href="">
+                        Curiosidades
+                    </a>
+                </li> 
+                
+                <li>
+                    <a href="">
+                        Historia
+                    </a>
+                    
+                </li>
+
+                <li>
+                    <a href="">
+                        Descobertas
+                    </a>
+                    
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Area de cadastro</h1>
+        <form action="index.html" method="post">
+
+            <label for="Nome">Seu Nome</label>
+            <input type="text" placeholder="Seu Nome Completo" name="Nome">
+
+            <label for="Nacimento">Quando voçê nasceu</label>
+            <input type="date" placeholder="Nacimento" name="Nacimento">
+
+            <label for="Email" name="Email">E-mail</label>
+            <input type="email">
+
+            <label for="Senha">Digite Uma Sennha</label>
+            <input type="password" name="Senha">
+
+            <input name="Enviar" type="submit">
+        </form>
+    </main>
+</body>
+<script src="javascript/nav.js" ></script>
+</html>
