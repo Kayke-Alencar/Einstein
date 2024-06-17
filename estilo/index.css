@@ -93,10 +93,6 @@ iframe{
         margin: auto;
     }
 
-    .container:nth-child(1){
-        padding-top: 70px;
-    }
-
     #h1{
         display: block;
         text-align: center;
