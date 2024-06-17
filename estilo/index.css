@@ -81,9 +81,6 @@ iframe{
     width: 90%;
     margin: auto;
     padding-top: 30px;
-<<<<<<< HEAD
-    text-align: center;
-=======
 }
 
 
@@ -94,10 +91,6 @@ iframe{
     main{
         width: 80%;
         margin: auto;
-    }
-
-    .container:nth-child(1){
-        padding-top: 70px;
     }
 
     #h1{
@@ -186,5 +179,4 @@ iframe{
         
         font-size: 25px
     }
->>>>>>> desktop
 }
