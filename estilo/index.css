@@ -1,6 +1,10 @@
 
 /*Moblie*/
 
+.bannerDesktop{
+    display: none;
+}
+
 .pensando{
     width: 100%;
     border-bottom: solid 1px #414141;
@@ -14,7 +18,7 @@
 }
 
 h2{
-    color:white;
+    color:rgb(180, 180, 180);
     font-family: math;
     font-weight: 200;
 
@@ -83,6 +87,17 @@ iframe{
 
 
 @media(min-width:1024px){
+    .bannerDesktop{
+        display: inline-block;
+        width: 100vw;
+        height: 60vh;
+        background-image: url(einstein-fundo4.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
     main{
         width: 80%;
         margin: auto;
@@ -110,6 +125,7 @@ iframe{
 
     #img1 img{
         border-radius: 20px;
+        opacity: 80%;
     }
 
     .txt1{
