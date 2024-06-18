@@ -1,12 +1,11 @@
 
 
 section{
-    padding-top: 60px;
+    padding-top: 70px;
 }
 
 
-
-#txt1 h2{
+h2{
     display: inline-block;
     margin-bottom: 15px;
 
@@ -19,33 +18,53 @@ section{
 
 #gif1{
     width: 100%;
-    margin-left: 20%;
+    height: 40vh;
+
+    background-image: url(https://i.pinimg.com/originals/b7/d3/78/b7d37886b4191b64fbe237a38602901f.gif);
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position-x: 18vh;
+    background-position-y: bottom;
 }
 
 #gif1 img{
     width: 110%;
 }
 
-section:nth-child(2){
+section:nth-child(2), section:nth-child(3){
     padding-top: 0px;
 }
 
 #gif2{
-    width: 150%;
-    /*margin-right: 60%;*/
-    margin-left: -60%;
+    width: 100%;
+    height: 35vh;
+
+    background-image: url(https://i.pinimg.com/originals/1b/d1/df/1bd1dfc8b21c6cae4bc716673c2e2469.gif);
+    background-repeat: no-repeat;
+    background-position-x: -25vh;
+    background-position-y: 45%;
+
+    margin-bottom: 50px;
+
 }
 
 #gif2 img{
     width: 100%;
 }
 
-#img1 img{
+#img1{
     width: 100%;
+    height: 50vh;
+
+    background-image: url(https://i.pinimg.com/564x/53/c5/1f/53c51f1030eb4f0cc82c4375dbe7128d.jpg);
+    background-size:120%;
+    background-repeat: no-repeat;
+    background-position-x: 18vh;
+    background-position-y:bottom;
 }
 
 p{
-    padding: 10px;
+    padding: 15px;
     font-size: 16.6px;
     font-family: system-ui;
 }
@@ -59,6 +78,7 @@ p{
     width: 100%;
     opacity: 60%;
 }
+
 
 /*.ondas{
     position: absolute;
