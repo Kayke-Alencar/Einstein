@@ -1,0 +1,29 @@
+section{
+    padding-top: 60px;
+}
+
+h1{
+    display: inline-block;
+    margin-bottom: 15px;
+
+    font-size: 35px;
+    margin-left: 5px;
+
+    color: white;    
+    border-bottom:solid 2px rgb(129, 129, 129);
+}
+
+#txt1 p{
+    font-size: 16.6px;
+    font-family: system-ui;
+}
+
+#img1{
+    padding-top: 50px;
+
+}
+
+#img1 img{
+    width: 100%;
+    opacity: 60%;
+}

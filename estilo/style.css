@@ -11,6 +11,11 @@ body{
     display: none;
 }
 
+p{
+    font-family: system-ui;
+    color: rgb(129, 129, 129);
+}
+
 
 /*Desktop*/
 

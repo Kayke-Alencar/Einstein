@@ -8,7 +8,8 @@
 
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/nav.css">
-    <link rel="stylesheet" href="estilo/login.css">
+    <link rel="stylesheet" href="estilo/descobertas.css">
+
 </head>
 <body>
     <header>
@@ -49,7 +50,7 @@
                 </li>
 
                 <li>
-                    <a href="">
+                    <a href="login.html">
                         <i class="fa-solid fa-right-to-bracket"></i>  logi-in
                     </a>
                 </li>
@@ -66,7 +67,10 @@
 
 
         <nav id="navDesktop"  class="desktop">
-            <i id="login" class="fa-solid fa-right-to-bracket"></i>
+            <a href="login.html">
+                <i id="login" class="fa-solid fa-right-to-bracket"></i>
+            </a>
+            
 
             <div class="itens">
                 <a href="">
@@ -85,7 +89,7 @@
                 </li> 
                 
                 <li>
-                    <a href="index.html">
+                    <a href="">
                         Historia
                     </a>
                     
@@ -102,24 +106,17 @@
     </header>
 
     <main>
-        <h1>Area de cadastro</h1>
-        <form action="index.html" method="post">
+        <section class="container">
+            <h1>Efeito Fotoeletrico</h1>
+            <div id="txt1">
+                <p>Einstein propôs a quantização da luz. Ou seja, em vez de transferir um fluxo contínuo de energia, a luz transfere sua energia em quantidades bem definidas, proporcionais à sua frequência. A essa quantidade, Einstein deu o nome de quantum de luz. É como se o feixe de luz fosse composto de partículas, ou quanta de luz (quanta é o plural de quantum). Se o quantum de luz tiver energia superior àquela que liga o elétron ao metal, a transferência dessa energia, em um evento único, liberará o elétron. Depois de liberado do seu local no interior do sólido, o elétron gastará uma parte da energia recebida do quantum de luz para chegar à superfície e se liberar totalmente do material. Então, a energia com que o elétron sai do material é a diferença entre a energia do quantum de luz e a energia gasta pelo elétron no trajeto até a superfície. Isso foi transformado no que hoje se conhece como equação do efeito fotoelétrico.</p>
+            </div>
 
-            <label for="Nome">Seu Nome</label>
-            <input type="text" placeholder="Seu Nome Completo" name="Nome" required>
-
-            <label for="Nacimento">Quando voçê nasceu</label>
-            <input type="date" placeholder="Nacimento" name="Nacimento" required>
-
-            <label for="Email" name="Email" required>E-mail</label>
-            <input type="email" placeholder="Seu Email" name="Email" required>
-
-            <label for="Senha">Digite Uma Sennha</label>
-            <input type="password" placeholder="Sua Senha" name="Senha" required>
-
-            <input name="Enviar" type="submit">
-        </form>
+            <div id="img1">
+                <img src="https://fisicamoderna2018.wordpress.com/wp-content/uploads/2018/02/170450_46502_68.jpg?w=800&h=600&crop=1" alt="">
+            </div>
+        </section>
     </main>
+    <script src="javascript/nav.js" ></script>
 </body>
-<script src="javascript/nav.js" ></script>
 </html>
