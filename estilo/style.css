@@ -7,6 +7,13 @@ body{
     background-color: rgb(0, 0, 0);
 }
 
+@media(min-width:667px) and (max-width:999px){
+    img{
+        display: none;
+    }
+}
+
+
 .desktop{
     display: none;
 }
