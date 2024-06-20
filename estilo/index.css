@@ -130,7 +130,7 @@ iframe{
 
     .txt1{
         border-radius: 7px;
-        box-shadow: -5px 5px 7px -4px rgb(225 225 225 / 32%);
+        /*box-shadow: -5px 5px 7px -4px rgb(225 225 225 / 32%);*/
         padding: 10px;
         padding-bottom: 5px;
         height: fit-content;
@@ -141,7 +141,7 @@ iframe{
     }
 
     p{
-        font-size:20px;
+        font-size:16.5px;
     }
 
     #resetarMargin{
@@ -178,6 +178,7 @@ iframe{
 
     #degrade{
         background-image: none;
+        margin-bottom: 400px;
     }
 
     .txt3{
@@ -187,7 +188,6 @@ iframe{
 
     .txt3 p{
         padding-bottom: 20px;
-        
-        font-size: 25px
+        font-size: 19px
     }
 }
