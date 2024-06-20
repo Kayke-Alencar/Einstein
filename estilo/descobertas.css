@@ -190,9 +190,8 @@ p{
     /* As regras abaixo já estão definidas para 1024px e se aplicam automaticamente a 1280px,*/
 }
 
-@media(min-width:1366px){
+@media(min-width:1600px){
     main{
         width:60%;
     }
-
 }
