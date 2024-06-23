@@ -7,6 +7,10 @@ body{
     background-color: rgb(0, 0, 0);
 }
 
+#ligado{
+    color: white;
+}
+
 h2{
     font-family: auto;
 }
