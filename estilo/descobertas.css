@@ -152,7 +152,7 @@ p{
         height: 100%;
     }
 
-    .gif2 img {
+    #quadrado{
         width: 380px;
     }
 
@@ -169,7 +169,7 @@ p{
         padding-bottom: 100px;
     }
 
-    .img1 img {
+    #relogio{
         width: 500px;
         height: 500px;
     }

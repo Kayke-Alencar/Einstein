@@ -33,8 +33,6 @@ p{
 
 
 /*Desktop*/
-
-
 @media (min-width:1024px){
     header{
         border-bottom: solid 2px #373737;
@@ -43,5 +41,9 @@ p{
     .container{
         display: flex;
         padding-top: 60px;
+    }
+
+    .desktop{
+        display: inline;
     }
 }

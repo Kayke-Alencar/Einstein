@@ -38,8 +38,7 @@ input{
 }
 
 input::-webkit-calendar-picker-indicator{
-    background-color: #777777;
-    
+    background-color: #777777;   
 }
 
 .env{

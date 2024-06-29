@@ -6,7 +6,7 @@ button{
     border:none;
 }
 
-#btn-fechado{
+#btn_da_nav_fechado{
     display: inline;    
     position: absolute;
 
@@ -15,7 +15,7 @@ button{
     color:white;
 }
 
-#btn-aberto{
+#btn_da_nav_aberto{
     display: none;
     position: fixed;
 
@@ -106,9 +106,6 @@ a:hover{
 
     button{
         display: none;
-    }
-    .desktop{
-        display: inline;
     }
 
     #navDesktop{

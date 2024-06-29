@@ -3,8 +3,8 @@ const main = document.querySelector("main");
 const body = document.querySelector("body");
 
 
-const btnDoFechado = document.querySelector("#btn-fechado");
-const btnDoAberto = document.querySelector("#btn-aberto");
+const btnDoFechado = document.querySelector("#btn_da_nav_fechado");
+const btnDoAberto = document.querySelector("#btn_da_nav_aberto");
 
 let butaoAberto = ()=>{
     btnDoFechado.style.display = "none";
